@@ -1,100 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohammed Sabir | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Sabir | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="#" class="logo">MS 💻</a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+    <header class="main-header">
+        <div class="logo">MS 💻</div>
+    </header>
 
-  <section class="hero" id="about">
-    <h1>Hi, I'm <span class="accent">Mohammed Sabir</span></h1>
-    <p class="subtitle">Computer Education Student @ TIU</p>
-    <p class="bio">I am a third-grade university student focused on building functional web and mobile applications. I enjoy solving complex problems using OOP and modern frontend technologies.</p>
-    <a href="#contact" class="btn">Get in Touch</a>
-  </section>
+    <main class="container">
+        <section class="hero">
+            <div class="hero-image-container">
+                <img src="assets/my-profile.jpg" alt="Mohammed Sabir" class="profile-img">
+            </div>
+            <h1>Hi, I'm <span class="accent">Mohammed Sabir</span></h1>
+            <p class="subtitle">Computer Education Student @ TIU</p>
+            <p class="bio">
+                I am a third-grade university student at Tishk International University. 
+                As a classmate of Akar Shwan, I specialize in building functional applications 
+                using Java, Flutter, and Web technologies with a focus on OOP principles.
+            </p>
+        </section>
 
-  <section class="section" id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span class="skill-tag">Java (OOP)</span>
-      <span class="skill-tag">Flutter & Dart</span>
-      <span class="skill-tag">HTML & CSS</span>
-      <span class="skill-tag">C++</span>
-      <span class="skill-tag">UI/UX Design</span>
-      <span class="skill-tag">GitHub</span>
-    </div>
-  </section>
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Java (OOP)</span>
+                <span class="skill-tag">Flutter & Dart</span>
+                <span class="skill-tag">HTML & CSS</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">GitHub</span>
+            </div>
+        </section>
 
-  <section class="section dark" id="experience">
-    <h2>Experience</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <h3>Volunteer - TIU Graduation</h3>
-        <span class="date">Ceremony Coordination</span>
-        <p>Assisted in the organization and smooth execution of the TIU graduation ceremony, ensuring a professional environment for graduates.</p>
-      </div>
-      <div class="timeline-item">
-        <h3>Volunteer - Food Fundraising</h3>
-        <span class="date">Festival Management</span>
-        <p>Worked as a volunteer during the university food fundraising festival, supporting community outreach and team coordination.</p>
-      </div>
-    </div>
-  </section>
+        <section class="section">
+            <h2>Experience</h2>
+            <div class="experience-list">
+                <div class="exp-item">
+                    <h3>Volunteer - TIU Graduation</h3>
+                    <p>Assisted in the coordination and organization of the graduation ceremony at Tishk International University.</p>
+                </div>
+                <div class="exp-item">
+                    <h3>Volunteer - Food Fundraising</h3>
+                    <p>Contributed to team management and outreach during the university's annual food festival.</p>
+                </div>
+            </div>
+        </section>
 
-  <section class="section" id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Erbil Pizza Website</h3>
-        <p>A fully responsive local business website featuring modern design and user-friendly navigation.</p>
-        <div class="tech-stack"><span>HTML</span><span>CSS</span></div>
-      </div>
-      <div class="project-card">
-        <h3>Gym Membership System</h3>
-        <p>An Object-Oriented Programming (OOP) project developed in collaboration with Akar to manage gym members and data.</p>
-        <div class="tech-stack"><span>Java</span><span>OOP</span></div>
-      </div>
-    </div>
-  </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Erbil Pizza Website</h3>
+                    <p>A responsive frontend project built to showcase modern web design and local business branding.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span></div>
+                </div>
+                <div class="project-card">
+                    <h3>Gym Membership System</h3>
+                    <p>A collaborative Java project focusing on Object-Oriented Programming (OOP) to manage gym data.</p>
+                    <div class="tags"><span>Java</span><span>OOP</span></div>
+                </div>
+            </div>
+        </section>
 
-  <section class="section dark" id="contact">
-    <div class="contact-form-container">
-        <h2>Let's Connect</h2>
-        <div class="contact-details">
-            <p>📧 Email: [Your Email Address]</p>
-            <p>📍 Location: Erbil, Iraq</p>
-        </div>
-        <form class="contact-form">
-            <div class="form-group"><input type="text" placeholder="Your Name" required></div>
-            <div class="form-group"><input type="email" placeholder="Your Email" required></div>
-            <div class="form-group"><textarea placeholder="Your Message" rows="4" required></textarea></div>
-            <button type="submit" class="btn btn-submit">Send Message</button>
-        </form>
-        <div class="contact-links" style="margin-top: 20px;">
-            <a href="#" class="btn btn-outline">GitHub</a>
-            <a href="#" class="btn btn-outline">LinkedIn</a>
-        </div>
-    </div>
-  </section>
+        <section class="contact-area">
+            <h2>Let's Connect</h2>
+            <div class="contact-info">
+                <p>📧 Email: mohammed.sabir@example.com</p>
+                <p>📍 Location: Erbil, Iraq</p>
+            </div>
+            <div class="social-box">
+                <a href="#" class="btn">GitHub</a>
+                <a href="#" class="btn btn-outline">LinkedIn</a>
+            </div>
+        </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2026 Mohammed Sabir | TIU Computer Education Department</p>
-  </footer>
+    <footer>
+        <p>&copy; 2026 Mohammed Sabir | TIU Computer Education</p>
+    </footer>
 
 </body>
 </html>
